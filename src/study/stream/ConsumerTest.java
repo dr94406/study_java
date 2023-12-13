@@ -1,4 +1,4 @@
-package study;
+package study.stream;
 
 import study.interable.Consumer;
 
