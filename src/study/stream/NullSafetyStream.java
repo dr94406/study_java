@@ -1,4 +1,4 @@
-package study;
+package study.stream;
 
 import java.util.List;
 

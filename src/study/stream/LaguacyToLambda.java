@@ -1,4 +1,4 @@
-package study;
+package study.stream;
 
 import java.util.Arrays;
 import java.util.Collections;

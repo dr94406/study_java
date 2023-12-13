@@ -1,4 +1,4 @@
-package study;
+package study.stream;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
