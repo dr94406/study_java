@@ -6,17 +6,17 @@ import java.util.stream.Stream;
 
 public class StreamDoubleMapPractice {
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+//
+//
+//
+//        List<Member> memberList = Arrays.asList(new Member("khm", 23, "BLUE"));
+//        memberList.stream();
+//
+//        List<String> test = Arrays.asList("khm","kdh","qwe");
 
 
-
-        List<Member> memberList = Arrays.asList(new Member("khm", 23, "BLUE"));
-        memberList.stream();
-
-        List<String> test = Arrays.asList("khm","kdh","qwe");
-
-
-        Stream<String> testToStream = test.stream();
+//        Stream<String> testToStream = test.stream();
 
 //        testToStream.filter(testV -> testV.endsWith("3"))
 //                .map(String::toUpperCase)
@@ -42,4 +42,3 @@ public class StreamDoubleMapPractice {
 
 
     }
-}

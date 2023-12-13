@@ -10,17 +10,17 @@ public class StreamTest {
 
 
     public static void main(String[] args) {
-        List<Member> list = new ArrayList<>();
-        list.add(new Member("김형민",23, "RED"));
-        list.add(new Member("강찬식",24, "BLUE"));
-        list.add(new Member("이상호", 28, "BLACK"));
-        list.add(new Member("최말자", 29, "WHITE"));
-        list.add(new Member("ggg", 43, "PINK"));
-
-        List<Member> test = list.stream().
-                filter( s -> s.getAge() > 25).
-                filter(s -> s.getName().startsWith("g"))
-                .collect(Collectors.toList());
+//        List<Member> list = new ArrayList<>();
+//        list.add(new Member("김형민",23, "RED"));
+//        list.add(new Member("강찬식",24, "BLUE"));
+//        list.add(new Member("이상호", 28, "BLACK"));
+//        list.add(new Member("최말자", 29, "WHITE"));
+//        list.add(new Member("ggg", 43, "PINK"));
+//
+//        List<Member> test = list.stream().
+//                filter( s -> s.getAge() > 25).
+//                filter(s -> s.getName().startsWith("g"))
+//                .collect(Collectors.toList());
 
 //        test.forEach(System.out::println);
 
