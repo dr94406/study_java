@@ -1,4 +1,4 @@
-package study.basical.test;
+package test;
 
  class Foo {
 
