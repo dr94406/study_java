@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -108,15 +109,6 @@ public class BasicStreamTest {
     }
 
     @Test
-    @DisplayName("스트림이 비어있다면 예외 던지기")
-    void createEmptyStreamfindFirst() {
-        Stream<String> createEmptyStream = Stream.empty();
-        System.out.println(createEmptyStream.findFirst().orElseThrow(() -> new RuntimeException("비어있는지 확인 후 비어있다면 예외 던지기")));
-    }
-
-
-
-    @Test
     @DisplayName("스트림 최소값 구하기 ")
     void createStreamFindMinValue() {
         Stream<Integer> createIntegerStreamMinValue = Stream.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
@@ -143,5 +135,43 @@ public class BasicStreamTest {
         System.out.println(integerStreamList.mapToLong(s -> s.longValue()).sum());
     }
 
+    @Test
+    @DisplayName("스트림 리듀싱 연산 해서 합계 구해보기")
+    void createStreamReducing() {
+        Integer[] numbers = {1, 2, 3, 4, 5, 7, 8, 9, 10};
+        int sum = Arrays.stream(numbers).reduce(0, Integer::sum);
+        System.out.println(sum);
+    }
 
+    @Test
+    @DisplayName("스트림 초기값 없는 리듀스")
+    void createNotDefaultValueReduce() {
+        Integer[] numbers = {1, 2, 3, 4, 5, 7, 8, 9, 10};
+        Optional<Integer> sum = Arrays.stream(numbers).reduce((a, b) -> (a + b));
+        System.out.println(sum);
+    }
+
+
+    @Test
+    @DisplayName("스트림 리듀스로 최소값 구해보기")
+    void createStreamReduceMinValue() {
+        Integer[] numbers = {1, 2, 3, 4, 5, 7, 8, 9, 10};
+        Optional<Integer> optionalIntegerMaxValue = Arrays.stream(numbers).reduce(Integer::min);
+        System.out.println(optionalIntegerMaxValue);
+    }
+
+    @Test
+    @DisplayName("스트림 리듀스로 최대값 구해보기")
+    void createStreamReduceMaxValue() {
+        List<Integer> list = List.of(1, 2, 3, 4, 5);
+        Optional<Integer> optionalIntegerMaxValue = list.stream().reduce(Integer::max);
+        System.out.println(optionalIntegerMaxValue);
+    }
+
+    @Test
+    @DisplayName("스트림 리밋 사용해보기")
+    void createStreamLimit() {
+        List<Integer> integerList = List.of(1,3,5,7,8,9,10);
+        System.out.println(integerList.stream().mapToLong(s -> s.intValue()).limit(5).sum());
+    }
 }
