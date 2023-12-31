@@ -17,7 +17,7 @@ public class VariableCapture {
         // 로컬 클래스 (local class)
         class LocalClass {
             void printbaseNumber() {
-                int baseNumber = 12; //쉐도잉 없이 run에 선언된 변수로 바로 사용 가능
+                int baseNumber = 12; //쉐도잉 없이 rwun에 선언된 변수로 바로 사용 가능
                 System.out.println(baseNumber);
             }
         }
