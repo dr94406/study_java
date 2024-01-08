@@ -1,4 +1,4 @@
-package study.whiteship.thejava;
+package study.whiteship.thejava.chap01;
 
 import study.interable.Consumer;
 
