@@ -1,4 +1,4 @@
-package study.whiteship.thejava;
+package study.whiteship.thejava.chap01;
 
 public class Foo {
     public static void main(String[] args) {
