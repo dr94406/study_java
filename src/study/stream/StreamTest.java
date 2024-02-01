@@ -192,9 +192,9 @@ public class StreamTest {
 //
 //        aaa.filter(s -> s.length() == 3).map(String::toUpperCase).sorted().collect(Collectors.toList()).forEach(System.out::println);
 //
-        List<String> good = Arrays.asList("khm2","khm", "oddd", "biz", "kmm", "kqq", "kaa", "khm");
+        List<String> good = Arrays.asList("khm2","khm", "oddd", "BIz", "kmm", "kqq", "kaa", "khm");
 
-         good.stream().filter(s -> s.startsWith("k")).map(String::toUpperCase).sorted().distinct().collect(Collectors.toList()).forEach(System.out::println);
+      good.stream().filter(s -> s.startsWith("k")).map(String::toUpperCase).sorted().distinct().collect(Collectors.toList()).forEach(System.out::println);
 
     }
 }

@@ -1,0 +1,12 @@
+
+]
+java:S1192"HDefine a constant instead of duplicating this literal "Captain" 3 times.(Þ´À_
+]
+java:S1192"HDefine a constant instead of duplicating this literal "IronMan" 3 times.(Þ´À_
+@	java:S106"+Replace this use of System.out by a logger.(Ù´¤‡
+@	java:S106"+Replace this use of System.out by a logger.(°ŠÝË
+E	java:S106"+Replace this use of System.out by a logger.(£ûî¹ýÿÿÿÿ
+@	java:S106%"+Replace this use of System.out by a logger.(ž¿…×
+E	java:S106&"+Replace this use of System.out by a logger.(ÿâˆ¯üÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
