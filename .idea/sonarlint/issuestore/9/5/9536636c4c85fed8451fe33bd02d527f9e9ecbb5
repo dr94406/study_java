@@ -1,0 +1,5 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¾ùé±
+x	java:S116"WRename this field "BooleanValue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±äì‚úÿÿÿÿ8ˆ—Þ•Ö1
+~
+java:S1845"\Rename field "BooleanValue" to prevent any misunderstanding/clash with field "booleanValue".(±äì‚úÿÿÿÿ8‰—Þ•Ö1

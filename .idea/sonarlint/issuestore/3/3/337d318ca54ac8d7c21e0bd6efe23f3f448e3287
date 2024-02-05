@@ -11,6 +11,8 @@ Y	java:S125‚"<This block of commented-out lines of code should be removed.(éÉ
 ^	java:S125Œ"<This block of commented-out lines of code should be removed.(²ö£œüÿÿÿÿ8ã³¦ÎÓ1
 Y	java:S125œ"<This block of commented-out lines of code should be removed.(šá«±8ã³¦ÎÓ1
 ^	java:S125·"<This block of commented-out lines of code should be removed.(ĞÜşÿÿÿÿ8ã³¦ÎÓ1
+u
+java:S6204Å"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¿·ªıÿÿÿÿ8ÎÙ•Ö1
 M	java:S106Å"+Replace this use of System.out by a logger.(¿·ªıÿÿÿÿ8ç³¦ÎÓ1
 M
 java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ç³¦ÎÓ1
