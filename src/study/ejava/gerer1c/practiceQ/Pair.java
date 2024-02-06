@@ -1,6 +1,6 @@
 package study.ejava.gerer1c.practiceQ;
 
-public class Pair<K, V> {
+public class Pair<K, V>{
 	private K key;
 	private V value;
 
