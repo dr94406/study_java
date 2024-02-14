@@ -1,0 +1,5 @@
+Product{pno=1, name='상품1', company='멋진 회사', price=9933}
+Product{pno=2, name='상품2', company='멋진 회사', price=7757}
+Product{pno=3, name='상품3', company='멋진 회사', price=7214}
+Product{pno=4, name='상품4', company='멋진 회사', price=3078}
+Product{pno=5, name='상품5', company='멋진 회사', price=1306}
